@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/Banner.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+  width: 100%;
+
+  display: table;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.background-overlay:before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  position: relative;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text h1{
+    width: 100%;
+    padding: 0 15px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.hero-about{
+    padding: 0 15px;
+    margin: 30px auto 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.hero-about span{
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    
+}
