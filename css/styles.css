@@ -22,3 +22,15 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.imageAboutPage {
+    width: 75%;
+    border-radius: 50%;
+}
+#about{
+    background-color:#d0d1cd;
+}
+#experiencias{
+    background-color:#d0d1cd;
+}
+
