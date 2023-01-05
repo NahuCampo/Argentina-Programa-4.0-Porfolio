@@ -28,9 +28,11 @@
     border-radius: 50%;
 }
 #about{
+    padding-top: 25px;
     background-color:#d0d1cd;
 }
 #experiencias{
+    padding-top: 45px;
     background-color:#d0d1cd;
 }
 
@@ -58,4 +60,13 @@
 
 .navbarScroll.dark {
     background-color: black;
+}
+
+#portfolio{
+    background-color:#d0d1cd;
+    padding-top: 45px;
+}
+
+.portfolioText:hover{
+    border: 1px solid  #6f474b  ;
 }
