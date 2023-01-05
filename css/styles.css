@@ -34,3 +34,24 @@
     background-color:#d0d1cd;
 }
 
+.experienciasText.card{
+    height: 280px;
+    cursor: pointer;
+}
+
+.experienciasIcon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+}
+
+.card:hover .experienciasIcon{
+    color:  #6f474b ;
+}
+
+.experienciasText:hover{
+    border: 1px solid  #6f474b  ;
+}
